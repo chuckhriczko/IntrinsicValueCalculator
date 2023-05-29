@@ -5,7 +5,7 @@ namespace InstrinsicValueCalculator.Lib;
 
 public class StockApi
 {
-    private const string ApiKey = "";
+    private const string ApiKey = "78DP2DRHQW5XVGH7";
     private const string ApiEndpoint = "https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=";
 
     public async Task<decimal?> GetIntrinsicValue(string tickerSymbol)
