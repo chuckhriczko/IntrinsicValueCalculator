@@ -7,40 +7,6 @@ public class StockApi
 {
     private const string ApiKey = "78DP2DRHQW5XVGH7";
     private const string ApiEndpoint = "https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=";
-
-    public async Task<decimal?> GetIntrinsicValue(string tickerSymbol)
-    {
-        var client = new HttpClient();
-        var response = await client.GetAsync($"{ApiEndpoint}{tickerSymbol}&apikey={ApiKey}");
-
-        if (!response.IsSuccessStatusCode)
-        {
-            return null;
-        }
-
-        var json = await response.Content.ReadAsStringAsync();
-        var data = JObject.Parse(json)["Global Quote"];
-
-        if (data == null)
-        {
-            return null;
-        }
-
-        var currentPrice = decimal.Parse(data["05. price"].ToString());
-
-        // Retrieve EPS and P/E ratio
-        var companyOverviewResponse = await client.GetAsync($"https://www.alphavantage.co/query?function=OVERVIEW&symbol={tickerSymbol}&apikey={ApiKey}");
-        var companyOverviewJson = await companyOverviewResponse.Content.ReadAsStringAsync();
-        var companyOverviewData = JObject.Parse(companyOverviewJson);
-
-        var eps = decimal.Parse(companyOverviewData["EPS"].ToString());
-        var peRatio = decimal.Parse(companyOverviewData["PERatio"].ToString());
-
-        // Calculate and return intrinsic value
-        var intrinsicValue = eps * (1m + 0.1m) * peRatio;
-        return intrinsicValue;
-    }
-
     public async Task<IntrinsicValueAndCurrentPrice?> GetIntrinsicValueAndCurrentPrice(string? tickerSymbol)
     {
         if (tickerSymbol == null)
