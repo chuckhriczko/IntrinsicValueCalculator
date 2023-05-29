@@ -1,0 +1,17 @@
+D:\dev\personal\console\Stocks\InstrinsicValueCalculator\InstrinsicValueCalculator\InstrinsicValueCalculator\bin\Debug\net7.0\InstrinsicValueCalculator.exe
+D:\dev\personal\console\Stocks\InstrinsicValueCalculator\InstrinsicValueCalculator\InstrinsicValueCalculator\bin\Debug\net7.0\InstrinsicValueCalculator.deps.json
+D:\dev\personal\console\Stocks\InstrinsicValueCalculator\InstrinsicValueCalculator\InstrinsicValueCalculator\bin\Debug\net7.0\InstrinsicValueCalculator.runtimeconfig.json
+D:\dev\personal\console\Stocks\InstrinsicValueCalculator\InstrinsicValueCalculator\InstrinsicValueCalculator\bin\Debug\net7.0\InstrinsicValueCalculator.dll
+D:\dev\personal\console\Stocks\InstrinsicValueCalculator\InstrinsicValueCalculator\InstrinsicValueCalculator\bin\Debug\net7.0\InstrinsicValueCalculator.pdb
+D:\dev\personal\console\Stocks\InstrinsicValueCalculator\InstrinsicValueCalculator\InstrinsicValueCalculator\bin\Debug\net7.0\Newtonsoft.Json.dll
+D:\dev\personal\console\Stocks\InstrinsicValueCalculator\InstrinsicValueCalculator\InstrinsicValueCalculator\obj\Debug\net7.0\InstrinsicValueCalculator.csproj.AssemblyReference.cache
+D:\dev\personal\console\Stocks\InstrinsicValueCalculator\InstrinsicValueCalculator\InstrinsicValueCalculator\obj\Debug\net7.0\InstrinsicValueCalculator.GeneratedMSBuildEditorConfig.editorconfig
+D:\dev\personal\console\Stocks\InstrinsicValueCalculator\InstrinsicValueCalculator\InstrinsicValueCalculator\obj\Debug\net7.0\InstrinsicValueCalculator.AssemblyInfoInputs.cache
+D:\dev\personal\console\Stocks\InstrinsicValueCalculator\InstrinsicValueCalculator\InstrinsicValueCalculator\obj\Debug\net7.0\InstrinsicValueCalculator.AssemblyInfo.cs
+D:\dev\personal\console\Stocks\InstrinsicValueCalculator\InstrinsicValueCalculator\InstrinsicValueCalculator\obj\Debug\net7.0\InstrinsicValueCalculator.csproj.CoreCompileInputs.cache
+D:\dev\personal\console\Stocks\InstrinsicValueCalculator\InstrinsicValueCalculator\InstrinsicValueCalculator\obj\Debug\net7.0\InstrinsicValueCalculator.csproj.CopyComplete
+D:\dev\personal\console\Stocks\InstrinsicValueCalculator\InstrinsicValueCalculator\InstrinsicValueCalculator\obj\Debug\net7.0\InstrinsicValueCalculator.dll
+D:\dev\personal\console\Stocks\InstrinsicValueCalculator\InstrinsicValueCalculator\InstrinsicValueCalculator\obj\Debug\net7.0\refint\InstrinsicValueCalculator.dll
+D:\dev\personal\console\Stocks\InstrinsicValueCalculator\InstrinsicValueCalculator\InstrinsicValueCalculator\obj\Debug\net7.0\InstrinsicValueCalculator.pdb
+D:\dev\personal\console\Stocks\InstrinsicValueCalculator\InstrinsicValueCalculator\InstrinsicValueCalculator\obj\Debug\net7.0\InstrinsicValueCalculator.genruntimeconfig.cache
+D:\dev\personal\console\Stocks\InstrinsicValueCalculator\InstrinsicValueCalculator\InstrinsicValueCalculator\obj\Debug\net7.0\ref\InstrinsicValueCalculator.dll
